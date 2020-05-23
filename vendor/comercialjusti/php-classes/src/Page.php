@@ -14,14 +14,14 @@ class Page {
 		"data"=>[]
 	];
 	//criação das variaveis de acordo com a rota, se não pode definir as rotas padrões caso n receba nada
-	public function __construct($opts = array()/*, $tpl_dir = "/views/"*/) {
+	public function __construct($opts = array(), $tpl_dir = "/views/") {
 
 		//$this->defaults["data"]["session"] = $_SESSION;
 		//junda as informações passadas com os defaults, esse array_merge um sobrescreve o outro, $opts ele vai sobrescrever o default no caso de conflito.
 		$this->options = array_merge($this->defaults, $opts);
 
 		$config = array(//=> apartir do diretorio root do projeto procura a pastal tal, DOCUMENT_ROOT traz onde esta a pasta o diretorio root do servidor configurado. ."onde esta o seu tamplete"
-			"tpl_dir"       => $_SERVER["DOCUMENT_ROOT"]."/views/",
+			"tpl_dir"       => $_SERVER["DOCUMENT_ROOT"]."$tpl_dir",
 			"cache_dir"     => $_SERVER["DOCUMENT_ROOT"]."/views-cache/",
 			"debug"			=> false
 		);
