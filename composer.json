@@ -13,7 +13,7 @@
     },
     "autoload": {
         "psr-4": {
-            "comercialjust\\": "vendor\\comercialjust\\php-classes\\src"
+            "Just\\": "vendor\\comercialjusti\\php-classes\\src"
         }
     }
 }
