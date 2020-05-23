@@ -1,6 +1,4 @@
-<?php if(!class_exists('Rain\Tpl')){exit;}?>
-
-	<div class="gtco-loader"></div>
+<?php if(!class_exists('Rain\Tpl')){exit;}?>	<div class="gtco-loader"></div>
 
 	<div id="page">
 
@@ -10,7 +8,7 @@
 				<div class="row">
 					<div class="col-sm-4 col-xs-12">
 						<div id="gtco-logo">
-							<a href="index.html"><img src="images/logo.png">
+							<a href="/res/site/index.html"><img src="/res/site/images/logo.png">
 							</a>
 						</div>
 					</div>
@@ -21,7 +19,7 @@
 							</li>
 							
 							<li>
-								<a href="contact.html">Contato</a>
+								<a href="/res/site/contact.html">Contato</a>
 							</li>
 							<li class="btn-cta">
 								<a href="errortela.html">
@@ -35,7 +33,7 @@
 			</div>
 		</nav>
 
-		<header id="gtco-header" class="gtco-cover gtco-cover-md" role="banner" style="background-image: url(images/img_bg_1.jpg)"
+		<header id="gtco-header" class="gtco-cover gtco-cover-md" role="banner" style="background-image: url(/res/site/images/img_bg_1.jpg)"
 		 data-stellar-background-ratio="0.5">
 			<div class="overlay"></div>
 			<div class="gtco-container">
@@ -110,12 +108,12 @@
 				<div class="row">
 
 					<div class="col-lg-4 col-md-4 col-sm-6">
-						<a href="images/img_1.jpg" class="fh5co-card-item image-popup">
+						<a href="/res/site/images/img_1.jpg" class="fh5co-card-item image-popup">
 							<figure>
 								<div class="overlay">
 									<i class="ti-plus"></i>
 								</div>
-								<img src="images/img_1.jpg" alt="Image" class="img-responsive">
+								<img src="/res/site/images/img_1.jpg" alt="Image" class="img-responsive">
 							</figure>
 							<div class="fh5co-text">
 								<h2>Motosserras</h2>
@@ -128,12 +126,12 @@
 					</div>
 
 					<div class="col-lg-4 col-md-4 col-sm-6">
-						<a href="images/img_2.jpg" class="fh5co-card-item image-popup">
+						<a href="/res/site/images/img_2.jpg" class="fh5co-card-item image-popup">
 							<figure>
 								<div class="overlay">
 									<i class="ti-plus"></i>
 								</div>
-								<img src="images/img_2.jpg" alt="Image" class="img-responsive">
+								<img src="/res/site/images/img_2.jpg" alt="Image" class="img-responsive">
 							</figure>
 							<div class="fh5co-text">
 								<h2>Roçadeiras</h2>
@@ -146,12 +144,12 @@
 					</div>
 
 					<div class="col-lg-4 col-md-4 col-sm-6">
-						<a href="images/img_3.jpg" class="fh5co-card-item image-popup">
+						<a href="/res/site/images/img_3.jpg" class="fh5co-card-item image-popup">
 							<figure>
 								<div class="overlay">
 									<i class="ti-plus"></i>
 								</div>
-								<img src="images/img_3.jpg" alt="Image" class="img-responsive">
+								<img src="/res/site/images/img_3.jpg" alt="Image" class="img-responsive">
 							</figure>
 							<div class="fh5co-text">
 								<h2>Sopradores</h2>
@@ -263,6 +261,4 @@
 					</div>
 				</div>
 			</div>
-		</div>
-
-		
+		</div>	

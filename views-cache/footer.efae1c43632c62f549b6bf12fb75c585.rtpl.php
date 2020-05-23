@@ -1,4 +1,4 @@
-<?php if(!class_exists('Rain\Tpl')){exit;}?><footer id="gtco-footer" role="contentinfo" style="background-image: url(images/img_bg_1.jpg)" data-stellar-background-ratio="0.5">
+<?php if(!class_exists('Rain\Tpl')){exit;}?><footer id="gtco-footer" role="contentinfo" style="background-image: url(/res/site/images/img_bg_1.jpg)" data-stellar-background-ratio="0.5">
 			<div class="overlay"></div>
 			<div class="gtco-container">
 				<div class="row row-pb-md">
@@ -38,7 +38,7 @@
 						<p>
 							<small class="block">&copy; 2020 Comercial Justi. Todos os Direitos Reservados.</small>
 							<small class="block">Desenvolvido por
-								<a href="https://growthcode-online.preview-domain.com" target="_blank">Michael(Desenvolvedor da GrowthCode)</a>
+								<a href="http://growthcode.online" target="_blank">Michael(Desenvolvedor da GrowthCode)</a>
 							</small>
 						</p>
 					</div>
@@ -56,31 +56,31 @@
 	</div>
 
 	<!-- jQuery -->
-	<script src="js/jquery.min.js"></script>
+	<script src="/res/site/js/jquery.min.js"></script>
 	<!-- jQuery Easing -->
-	<script src="js/jquery.easing.1.3.js"></script>
+	<script src="/res/site/js/jquery.easing.1.3.js"></script>
 	<!-- Bootstrap -->
-	<script src="js/bootstrap.min.js"></script>
+	<script src="/res/site/js/bootstrap.min.js"></script>
 	<!-- Waypoints -->
-	<script src="js/jquery.waypoints.min.js"></script>
+	<script src="/res/site/js/jquery.waypoints.min.js"></script>
 	<!-- Carousel -->
-	<script src="js/owl.carousel.min.js"></script>
+	<script src="/res/site/js/owl.carousel.min.js"></script>
 	<!-- countTo -->
-	<script src="js/jquery.countTo.js"></script>
+	<script src="/res/site/js/jquery.countTo.js"></script>
 
 	<!-- Stellar Parallax -->
-	<script src="js/jquery.stellar.min.js"></script>
+	<script src="/res/site/js/jquery.stellar.min.js"></script>
 
 	<!-- Magnific Popup -->
-	<script src="js/jquery.magnific-popup.min.js"></script>
-	<script src="js/magnific-popup-options.js"></script>
+	<script src="/res/site/js/jquery.magnific-popup.min.js"></script>
+	<script src="/res/site/js/magnific-popup-options.js"></script>
 
-	<script src="js/moment.min.js"></script>
-	<script src="js/bootstrap-datetimepicker.min.js"></script>
+	<script src="/res/site/js/moment.min.js"></script>
+	<script src="/res/site/js/bootstrap-datetimepicker.min.js"></script>
 
 
 	<!-- Main -->
-	<script src="js/main.js"></script>
+	<script src="/res/site/js/main.js"></script>
 
 </body>
 
