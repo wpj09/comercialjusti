@@ -9,19 +9,19 @@ class Page {
 	private $tpl;
 	private $options = [];
 	private $defaults = [ //rota padrão para o header e o footer
-		/*"header"=>true,
-		"footer"=>true,*/
+		"header"=>true,
+		"footer"=>true,
 		"data"=>[]
 	];
 	//criação das variaveis de acordo com a rota, se não pode definir as rotas padrões caso n receba nada
 	public function __construct($opts = array(), $tpl_dir = "/views/") {
 
-		//$this->defaults["data"]["session"] = $_SESSION;
+		$this->defaults["data"]["session"] = $_SESSION;
 		//junda as informações passadas com os defaults, esse array_merge um sobrescreve o outro, $opts ele vai sobrescrever o default no caso de conflito.
 		$this->options = array_merge($this->defaults, $opts);
 
 		$config = array(//=> apartir do diretorio root do projeto procura a pastal tal, DOCUMENT_ROOT traz onde esta a pasta o diretorio root do servidor configurado. ."onde esta o seu tamplete"
-			"tpl_dir"       => $_SERVER["DOCUMENT_ROOT"]."$tpl_dir",
+			"tpl_dir"       => $_SERVER["DOCUMENT_ROOT"].$tpl_dir,
 			"cache_dir"     => $_SERVER["DOCUMENT_ROOT"]."/views-cache/",
 			"debug"			=> false
 		);
@@ -32,11 +32,8 @@ class Page {
 
 		$this->setData($this->options["data"]);
 
-		$this->tpl->draw("header");
-
-		
 		//validando a chamada do header
-		/*if ($this->options["header"] === true) $this->tpl->draw("header");*/
+		if ($this->options["header"] === true) $this->tpl->draw("header");
 
 	}
 	//serve para tirar as repetições do foreach.
@@ -60,8 +57,7 @@ class Page {
 
 	public function __destruct() {
 		//validando a chamada do footer
-		/*if ($this->options["footer"] === true) $this->tpl->draw("footer");*/
-		$this->tpl->draw("footer");
+		if ($this->options["footer"] === true) $this->tpl->draw("footer");
 
 	}
 }
