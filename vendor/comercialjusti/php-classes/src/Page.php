@@ -31,7 +31,6 @@ class Page {
 		$this->tpl = new Tpl;
 
 		$this->setData($this->options["data"]);
-
 		//validando a chamada do header
 		if ($this->options["header"] === true) $this->tpl->draw("header");
 
