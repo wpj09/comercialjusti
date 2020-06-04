@@ -384,7 +384,7 @@
           <div class="content">
             <span class="brand">
               <a href="#">
-                Hcode Store
+                Comercial Justi
               </a>
             </span>
           </div>
@@ -462,11 +462,11 @@
         <td></td>
         <td class="container">
           <div class="content">
-            <a href="#">Contact Us</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+            <a href="#">Contate-nos</a>&nbsp;&nbsp;|&nbsp;&nbsp;
             <span class="footer-group">
               <a href="#">Facebook</a>&nbsp;&nbsp;|&nbsp;&nbsp;
               <a href="#">Twitter</a>&nbsp;&nbsp;|&nbsp;&nbsp;
-              <a href="#">Support</a>
+              <a href="#">Suporte</a>
             </span>
           </div>
         </td>
